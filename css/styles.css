@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+		/*HEADER*/
+
+#f{
+	font-family: 'Taviraj', serif;
+	font-size: 25px;
+}
+
+/*logo 1 que esta en la parte superior izquierda*/
+#logo1:hover{
+	opacity: 0.9;
+}
+
+/*logo que esta en la parte superior y en el centro*/
+#logo2 {
+	background-color:#690213 ;
+}
+
+#logo2 img{
+	width: 5%;
+	margin: 0 47.5%;
+	text-align: center;
+
+	border-style: groove;
+	border-radius: 20px;
+	border-color: #690213;
+}
+
+#logo2 img:hover{
+	border-style: groove;
+	border-radius: 20px;
+	border-color: transparent;
+}
+
+	/*Navbar*/
+.navbar-brand img{
+	/*ancho de la imagen del logo*/
+	width: 130px;
+	/*height: auto;*/
+	position: relative;
+}
+
+/*MAIN*/
+/*Restaurants and bars*/
+#res{
+	font-family: 'Satisfy', cursive;
+}
+
+/*If you have any doubt, contact us by email, write your questions and we will answer latter!*/
+#res2{
+	font-family: 'Satisfy', cursive;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 10px;
+}
+
+#res3{
+	background-color:#8A2536 ;
+	color: white;
+	font-family: 'Satisfy', cursive;
+}
+
+
+/*What we have to you?*/
+#what{
+	background-color: #690213 ;
+	color: white;
+	font-family: 'Satisfy', cursive;
+}
+
+#sep{
+	width: 10%;
+	text-align: center;
+}
+
+/*opacidad de los botones que estan dentro de las cards de las habitaciones*/
+.btn{
+	opacity: 0.7;
+}
+#enjoy{
+	font-family: 'Satisfy', cursive;
+	font-size: 20px;
+}
+
+/*hover de las imagenes de habitaciones.html*/
+#ih{
+	opacity: 0.95;
+}
+
+#ih:hover{
+	opacity: 1;
+}
+
+/*col1--  le damos color a los botones que estan dentro de las cards de recamaras.html*/
+.col1{
+	background-color: #690213;
+}
+
+
+/*FOOTER*/
+#f1{
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+}
+
+/*hover sobre las imagenes de redes sociales*/
+.im:hover{
+	opacity: 0.5;
+}
